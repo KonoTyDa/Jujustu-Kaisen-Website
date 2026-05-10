@@ -1,0 +1,215 @@
+<!-- Ty Fellers 5/6/2026  Final Project-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Favories</title>
+</head>
+<body> 
+<div id="wrapper">
+<header>
+    <h1 class="title">Jujutsu Kaisen</h1>
+        <nav>
+            <ul>
+                 <li><a href="Index.html">Home</a></li>
+                <li><a href="Favorites.html">Favorites</a></li>
+                <li><a href="Form.html">Form</a></li>
+            </ul>
+        </nav>
+</header>
+<main>
+<!--Lightbox ; followed this tutorial for the lightbox sections: https://www.youtube.com/watch?v=uKVVSwXdLr0&t=349s  ;this video was useful aswell: https://www.youtube.com/watch?v=e7nXia_tZ4Y -->
+    <section>
+        <h2>Characters</h2>
+            <p>The characters of this show are some of my favorite in any animated series I have watched. The author (Gege Akutami) made great design choices and gave the main cast wonderfully crafted backstories. 
+                Click on the boxes to learn a little about each character.</p>
+        <div class="grid">
+            <img src="Images/gojopfp2.0.jpg"
+                data-name="Satoru Gojo"
+                data-grade="Special Grade Sorcerer"
+                data-bio="Known as the Honored One or The Strongest. His cursed technique puts infinity between him and everything else making him practically untouchable and the ability to manipulate cursed energy with 100% effeciency 
+                allowing him to never run out. He can also produce balls of pure energy that decimate anything in their path."
+                data-fullimg="Images/gojopose.png"
+                data-color="#7DF9FF"
+                data-return="Return To Favorites Page"
+                data-voice="Audio/gojovl.mp3"
+                data-textsound="Audio/gojomove.mp3"
+                data-spin = "true"
+                data-voicedelay="2000" data-textdelay="6000" alt="Satoru Gojo">
+                <div id="animate"></div>
+            <img src="Images/higurumapfp2.0.jpg"
+                data-name="Hiromi Higuruma"
+                data-grade="Grade 1 Sorcerer"
+                data-bio="The genius defense lawyer awakens his abilities in a game where players <br> fight to the death. Now using his knowledge of the law as his weapon, <br>Higuruma's uses his domain to trap opponets in a courtroom where<br> he can summon a shikigami named 
+                Judgemen to deliver deadly <br> verdicts on his opponets."
+                data-fullimg="Images/higurumaposere.png"
+                data-imgjudge="Images/Judgeman.webp"
+                data-color="#4c3228"
+                data-return="Return To Favorites Page"
+                data-voice="Audio/higurumavl.mp3"
+                data-align="right"
+                data-title="Deadly Sentencing"
+                data-voicedelay="1000" data-textdelay="0" alt="Hiromi Higuruma"
+            >
+            <img src="Images/chosopfp.jpg"
+                data-name="Choso Kamo"
+                data-grade="Grade 1 Sorcerer"
+                data-bio="The eldest of the Death Womb Paintings, a cursed object that when eaten can control the human who swallows it, is a man who puts his brothers before all else.
+                Choso a master of his technique blood manipulation is able to strike fear in even the strongest foes."
+                data-fullimg="Images/chosopose.png"
+                data-color="black"
+                data-finalcolor="#b40909"
+                data-return="Return To Favorites Page"
+                data-voice="Audio/chosovlcut.mp3"
+                data-bloodlines="true"
+                data-clap="Audio/clap.mp3"
+                data-imagedelay="8000"
+                data-clapdelay="8000"
+                data-voicedelay="1000"
+                data-textdelay="8000"
+                alt="Choso Kamo">
+        </div>
+
+    </section>
+<!--Lightbox-->
+
+<!--Accordian      source: https://www.youtube.com/watch?v=5nvHvcm4skY   this one was helpful too for the more responsive design elements: https://www.youtube.com/watch?v=cZ6HB6pv23M  -->
+<section>
+<h2>Domain Expansions</h2>
+<p>Domain expansions are in my opinion the most captivating part of this series. A domain expansion represents the physical manifestation of the users' subconcious so everyone has their own special domain expansion. 
+    Though not many people are able to use this ability since it is considered the pinnacle of jujustu sourcery.  Below I have provided a couple examples
+</p>
+<div class="accordion accordion-row" id="domain-visuals">
+    <div class="accordion-item" data-domain="1">
+        <img src="Images/infhands.png" alt="Hand Sign" class="sign-img unlimited-hands">
+        <img src="Images/infintevoid.jpg" alt="Unlimited Void" class="domain-img">
+    </div>
+    <div class="accordion-item" data-domain="2"> 
+        <img src="Images/malevhandsre.png" alt="Hand Sign 2" class="sign-img">
+        <img src="Images/malevshrine.jpg" alt="Malevolent Shrine" class="domain-img">
+    </div>
+    <div class="accordion-item"  data-domain="3">
+        <img src="Images/selfhands.png" alt="Hand Sign 3" class="sign-img">
+        <img src="Images/selfembodiment.jpg" alt="Self Embodiment of Perfection" class="domain-img">
+    </div>
+    <div  class="accordion-item" data-domain="4">
+        <img src="Images/chimerahands.png" alt="Hand Sign 4" class="sign-img">
+        <img src="Images/chimerashadow.jpg" alt="Chimera Shadow Garden" class="domain-img">
+    </div>
+</div>
+<div class="accordion" id="domain-info">
+    <br> <br>
+    <div class="accordion-item" data-domain="1">
+        <div class="info-content">
+            <h3>Unlimited Void <br> User: Satoru Gojo</h3>
+            <p>Floods the target's mind with an endless stream of information, completely paralyzing them as they experience everything all at once</p>
+        </div>
+    </div>
+    <div class="accordion-item" data-domain="2">
+        <div class="info-content">
+            <h3>Malevolent Shrine <br> User: Ryomen Sukuna</h3>
+            <p>An open-barrier domain that rains down invisible, destructive slashing attacks on everything in its massive 200 meter radius.</p>
+        </div>
+    </div>
+        <div class="accordion-item" data-domain="3">
+            <div class="info-content">
+                <h3>Self Embodiment of Perfection <br> User: Mahito</h3>
+                <p>Traps the target in a space where the user has absolute control, allowing them to physically manipulate anyone trapped in the domain.</p>
+            </div>
+        </div>
+        <div class="accordion-item" data-domain="4">
+            <div class="info-content">
+                <h3>Chimera Shadow Garden <br> User: Megumi Fushiguro</h3>
+                <p>Replaces the floor with an ocean of shadows and gives the user complete control of shadows to summon shikigami, clone themself, or even store objects within the shadow relm.</p>
+            </div>
+        </div>
+</div>
+</section>
+<!--Accordion-->
+<!--Soundtracks Source: https://www.youtube.com/watch?v=KAG5wNPdoTw  sound button: https://www.youtube.com/watch?v=APjb5Er03UE -->
+<section class="soundtrack-intro"> 
+<h2>Soundtrack</h2>
+<p>I am absolutely in love with the soundtrack for this show. They have some of the best sound engineers working on these tracks. While the whole OST is very good these are my top 5 tracks that 
+    I know would bring Mozart himself to tears.</p>
+    <button id="reveal-btn" class="scroll-indicator">
+        <span class="left-arrow">&#10533;</span>Click Here<span class="right-arrow">&#10534;</span>
+</button>
+<p>.Another really great part of the music outside of the OSTs is the openings for the show, I and many others think that the first opening of the show is the best one, 
+with over 1.3 billion listens across Spotify and Youtube Music. <br><a class="Youtube-link" href="https://www.youtube.com/watch?v=GwaRztMaoY0&list=RDGwaRztMaoY0&start_radio=1"> <i class="fa-brands fa-youtube"></i> Go Check It Out</a></p>
+</section>
+<div class="sound-snap-box" id="tracks">
+<ol reversed>
+    <li class="snap-slide track-slide">
+        <img src="Images/albumred.jpg" alt="Album Cover">
+            <h2>Defeat Here<br>Yoshimasa Terui</h2>
+                <div class="music-player">
+                    <input class="slider-song" type="range">
+                    <div class="music-buttons"> 
+                        <i class="fa-solid fa-circle-play fa-3x playpause-song" data-song="Audio/Defeat.mp3"></i>
+                    </div>
+                </div>
+    </li>
+    <li class="snap-slide track-slide">
+            <img src="Images/flucalbum.jpg" alt="Album Cover">
+            <h2>Fluctuations <br>Yoshimasa Terui</h2>
+                <div class="music-player">
+                    <input class="slider-song" type="range">
+                    <div class="music-buttons"> 
+                        <i class="fa-solid fa-circle-play fa-3x playpause-song" data-song="Audio/Fluctuations.mp3"></i>
+                    </div>
+                </div>
+    </li>
+    <li class="snap-slide track-slide">
+            <img src="Images/albumred.jpg" alt="Album Cover">
+            <h2>The Eldest of "Ten" Siblings<br>Yoshimasa Terui</h2>
+                <div class="music-player">
+                    <input class="slider-song" type="range">
+                         <div class="music-buttons"> 
+                            <i class="fa-solid fa-circle-play fa-3x playpause-song" data-song="Audio/Eldest.mp3"></i>
+                   </div>
+                </div>
+    </li>
+    <li class="snap-slide track-slide">
+            <img src="Images/delalbum.jpg" alt="Album Cover">
+            <h2>Delirious<br>Yoshimasa Terui</h2>
+                <div class="music-player">
+                    <input class="slider-song" type="range" value="0" step="any">
+                        <div class="music-buttons"> 
+                        <i class="fa-solid fa-circle-play fa-3x playpause-song" data-song="Audio/Delirious.mp3"></i>
+                     </div>
+                </div>
+    </li>
+    <li class="snap-slide track-slide">
+            <img src="Images/albumred.jpg" alt="Album Cover">
+            <h2>Colony<br>Yoshimasa Terui</h2>
+                <div class="music-player">
+                    <input class="slider-song" type="range">
+                    <div class="music-buttons"> 
+                        <i class="fa-solid fa-circle-play fa-3x playpause-song" data-song="Audio/Colony.mp3"></i>
+                    </div>
+                </div>
+    <div class="download-container">
+        <a href="Audio/Top5-Soundtrack.zip" download class="download-btn">
+            <i class="fa-solid fa-file-zipper"></i>If You Enjoyed Click to Download.
+        </a>
+    </div>
+            <button id="close-tracks" class="scroll-indicator">
+            Close Soundtrack  &#10006;
+            </button>
+
+    </li>
+</ol>
+</div>
+<!--Soundtrack-->
+</main>
+
+<footer>
+    <p><a class="mail" href="mailto:tyfellers145@gmail.com">Like What You See, Contact Me ദ്ദി◝ ⩊ ◜.ᐟ</a></p>
+</footer>
+</div>
+    <script src="script.js" defer></script>
+</body>
+</html>

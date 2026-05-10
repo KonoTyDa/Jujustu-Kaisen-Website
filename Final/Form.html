@@ -1,0 +1,83 @@
+<!-- Ty Fellers 5/6/2026  Final Project-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form</title>
+</head>
+<body> 
+<div id="wrapper">
+<header>
+    <h1 class="title">Mission Request</h1>
+        <nav>
+            <ul>
+                 <li><a href="Index.html">Home</a></li>
+                <li><a href="Favorites.html">Favorites</a></li>
+                <li><a href="Form.html">Form</a></li>
+            </ul>
+        </nav>
+</header>
+<main>
+    <Section>
+    <div class="container">
+        <header>
+            <img src="Images/gojo-face.jpg" alt="gojo-face">
+            <h2>Submit a Mission Request!</h2>
+            <p>Have you spotted a cursed spirit?! Need an Escort? Fill out your information and we will dispatch a sorcerer to your location.</p>
+        </header>
+<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+    <div class="form-group">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required maxlength="30">
+    </div>
+
+    <div class="form-group">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required maxlength="30">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Location:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="123-456-7890">
+    </div>
+
+    <div class="form-group">
+        <label for="curselevel">Estimated Threat Level</label>
+        <select id="curselevel" Name="curselevel" required>
+            <option value="">-- Select a Threat Level --</option>
+            <option value="low">Grade 4 - Grade 3 (Low Threat)</option>
+            <option value="high">Grade 2 - Grade 1 (High Threat)</option>
+            <option value="special">Special Grade (YOU BETTER START RUNNING!)</option>
+        </select> 
+    </div>
+
+    <div class="form-group">
+        <div class="contact-options">
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I confirm this infromation is 100% accurate.</label>
+        </div>
+    </div>
+    <div class="form-group button-group">
+        <input type="submit" value="HURRY!!">
+        <input type="reset" value="Clear Form">
+    </div>
+</div>
+</form>
+</Section>
+</main>
+
+<footer>
+    <p><a class="mail" href="mailto:tyfellers145@gmail.com">Like What You See, Contact Me ദ്ദി◝ ⩊ ◜.ᐟ</a></p>
+</footer>
+</div>
+    <script src="script.js" defer></script>
+</body>
+</html>
